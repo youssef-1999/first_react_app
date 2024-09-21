@@ -1,0 +1,25 @@
+.icon i
+{
+    color: #2c3e50;
+}
+ .icon::before
+{
+    position: absolute;
+    content: " ";
+    background-color: #2c3e50;
+    right: 40%;
+    width: 100px;
+    height: 5px;
+    top: 50%;
+}
+ .icon::after
+{
+    position: absolute;
+    content: " ";
+    background-color: #2c3e50;
+    left: 40%;
+    width: 100px;
+    height: 5px;
+    top: 50%
+   
+}

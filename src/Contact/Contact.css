@@ -1,0 +1,23 @@
+.form-group input
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.form-group input:focus::placeholder
+{
+   position: absolute;
+   top: -20%;
+   color: #1abc9c
+}
+
+.form button,
+.form button:hover
+{
+   background-color: #1abc9c
+
+}
